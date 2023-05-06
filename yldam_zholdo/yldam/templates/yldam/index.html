@@ -1,0 +1,344 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <title>Ылдам Жолдо - открываем дорогу в будущее</title>
+    <link href="{% static 'yldam/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'yldam/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'yldam/css/templatemo-grad-school.css' %}">
+    <link rel="stylesheet" href="{% static 'yldam/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'yldam/css/lightbox.css' %}">
+  </head>
+<body>
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>Ылдам</em> Жолдо</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#section1">Главная страница</a></li>
+        <li><a href="#section2">О нас</a></li>
+        <li><a href="#section3">Регистрация</a></li>
+        <li><a href="#section4">Как это работает?</a></li>
+        <li><a href="#section5">Контакты</a></li>
+        <li><a href="#section6">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="{% static 'yldam/images/course-video.mp4' %}" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>Лучшие дороги в Кыргызстане</h6>
+              <h2><em>Отвечаем</em> требованиям</h2>
+              <div class="main-button">
+                  <div class="scroll-to-section"><a href="#section2">Узнать больше</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>Ваши мечты - <br>наша работа</br></h4>
+              </div>
+              <div class="content-hide">
+                <p>Мы работаем над безопасными и удобными дорогами.</p>
+                <div class="scroll-to-section"><a href="#section2">Узнать больше.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Для нас значим каждый</h4>
+              </div>
+              <div class="content-hide">
+                <p>Характер нашей работы учитывает мнение каждого.</p>
+                <div class="scroll-to-section"><a href="#section3">Узнать больше.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Оперативное оказание услуг</h4>
+              </div>
+              <div class="content-hide">
+                <p>Обширный штат сотрудников оперативно решит проблему.</p>
+                <div class="scroll-to-section"><a href="#section4">Узнать больше.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Почему выбирают Жолдо Ылдам?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>Высокая продуктивность</a></li>
+              <li><a href='#tabs-2'>Передовые технологии</a></li>
+              <li><a href='#tabs-3'>Совместная работа с государством</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'yldam/images/choose-us-image-01.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Высокая продуктивность</h4>
+                    <p>Высокая продуктивность позволяет нам предоставлять услуги на высоком уровне качества по более низким ценам. Увеличение производительности позволяет сократить расходы на рабочую силу и снизить нагрузку на оборудование.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'yldam/images/choose-us-image-02.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Передовые технологии</h4>
+                    <p>Использование передовых технологий является важным фактором успеха нашей компании. Это позволяет нам работать более эффективно и точно, что улучшает качество услуг и повышает их конкурентоспособность на рынке.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'yldam/images/choose-us-image-03.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Совместная работа с государством</h4>
+                    <p>Сотрудничество с государством позволяет нам использовать государственные ресурсы и инфраструктуру, что существенно упрощает и ускоряет выполнение проектов.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section coming-soon" data-section="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="continer centerIt">
+            <div>
+              <h4>Продолжаем <em>радовать вас</em> на протяжении</h4>
+              <div class="counter">
+
+                <div class="days">
+                  <div class="value">00</div>
+                  <span>Дней</span>
+                </div>
+
+                <div class="hours">
+                  <div class="value">00</div>
+                  <span>Часов</span>
+                </div>
+
+                <div class="minutes">
+                  <div class="value">00</div>
+                  <span>Минут</span>
+                </div>
+
+                <div class="seconds">
+                  <div class="value">00</div>
+                  <span>Секунд</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="right-content">
+            <div class="top-content">
+              <h6>Зарегистрируйтесь прямо сейчас всего за <em>пару кликов</em></h6>
+            </div>
+            <form id="contact" action="" method="get">
+              <div class="row">
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Ваше имя" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Ваша почта" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Ваш номер телефона" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">Зарегистрироваться</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Рекомендуем к ознакомлению</span>
+            <h4>Цели и приоритеты <em><br>Ылдам Жолдо</em></h4>
+            <p>Антикоррупционное просвещение населения, повышение общественного осознания значимости и важности борьбы с коррупцией в Кыргызстане;
+            <br>Организация изучения практики и теории борьбы с коррупцией и участия в ней структур гражданского общества Кыргызстана;
+            <br>Содействие гражданам и организациям в реализации их конституционных прав и свобод;
+            <br>Преимущественная ориентация на международный опыт уменьшения коррупции, освоение его технологий, ресурсов, а также включение структур гражданского общества в международный диалог борьбы с коррупцией.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Остались вопросы?<br>Напишите нам</h2>
+          </div>
+        </div>
+        <div class="col-md-6-2">         
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Ваше имя" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Ваша почта" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Введите сообщение..." required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Отправить сообщение</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Designed by <a href="#" rel="sponsored" target="_parent">CodeRunners</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="{% static 'yldam/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'yldam/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'yldam/js/isotope.min.js' %}"></script>
+    <script src="{% static 'yldam/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'yldam/js/lightbox.js' %}"></script>
+    <script src="{% static 'yldam/js/tabs.js' %}"></script>
+    <script src="{% static 'yldam/js/video.js' %}"></script>
+    <script src="{% static 'yldam/js/slick-slider.js' %}"></script>
+    <script src="{% static 'yldam/js/custom.js' %}"></script>
+    <script>
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
